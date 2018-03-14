@@ -1,0 +1,12 @@
+<p>
+  Enter city name
+</p>
+
+<input type="text" [(ngModel)]="city" >   
+<input type="submit" (click)="search()" value="Search">
+
+<h3>Humidity in {{city}} is {{humid}}</h3>
+<h3>Pressure in {{city}} is {{pres}}</h3>
+<h3>Temperature in {{city}} is {{temp}}</h3>
+
+
