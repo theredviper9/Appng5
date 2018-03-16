@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pub":" git add --all &&  git commit -m \"Modified index.html\"  &&  git push origin master  && ng build --prod --base-href /TestApp/ && sudo gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
